@@ -1,4 +1,28 @@
 img {
     width: 100%;
   }
+
+  h1{
+    text-align: center;
+  }
+
+  .container{
+    
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
   
+  /* .box{
+    margin: 10px;
+  } */
+
+  .container2{
+    padding: 10px;
+    display: grid;
+    /* grid-template-columns:  1fr 350px 1fr; */
+    grid-template-columns: 1fr minmax(100px,350px) 1fr ;
+    gap: 10px;
+  }
+
